@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Bad+Script);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
+body {
+	font-size: 100%;
+ 	box-sizing: border-box;
+}
+
+.container {
+	width:1000px;
+	margin:auto;
+}
+
+.nav-container {
+	font-family: 'Bad Script';
+	position: fixed;
+	top: 0;
+	background-color: #a6a6a6;
+	width: 100%;
+	z-index: 1;
+}
+
+nav li {
+	float: right;
+	list-style-type: none;
+	margin: 1em;
+	padding-top: 1.5em;
+	padding-right: 2em;
+}
+
+nav img {
+	height: 6em;
+	width: 6em;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: white;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+header {
+	font-family: 'Bad Script';
+	width: 100%;
+	height: 30em;
+	text-align: center;
+	background-color: black;
+}
+
+.header-container {
+	text-align: center;
+	color: white;
+	padding-top:250px;
+
+}
+
+.header-container img {
+	display:none;
+}
+
+header h1 {
+	font-size: 4em;
+}
+
+header h3 {
+	margin-top: 1em;
+	font-size: 1.5em;
+}
+
+.intro-container h2 {
+	font-family: 'Bad Script';
+	text-align: center;
+	margin-top: 2em;
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+.intro-container p {
+	font-family: 'PT Sans Narrow';
+	width: 50%;
+	margin: auto;
+	font-size: 1em;
+	text-align: center
+}
+
+.projects-container {
+	margin-top: 5em;
+	width: 100%;
+	text-align: center;
+}
+
+.projects-container h2 {
+	font-family: 'Bad Script';
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+.projects {
+
+}
+
+.projects li {
+	width: 20em;
+	display: inline-block;
+	margin: 1.5em;
+}
+
+.projects li h3 {
+	font-family: 'Bad Script';
+	margin-bottom: 1.5em;
+}
+
+.projects li p {
+	font-family: 'PT Sans Narrow';
+	margin-top: 2em;
+}
+
+.projects img {
+	width: 20em;
+}
+.icons {
+	margin-bottom: 5em;
+}
+.icons h2 {
+	margin-top: 1.5em;
+	font-family: 'Bad Script';
+	text-align: center;
+	font-size: 2em;
+}
+.icons ul {
+	text-align: center;
+	font-size: 2em;
+}
+.icons li {
+	display: inline-block;
+	margin: 2em 1em 0 1em;
+}
+.icons a {
+	color: #404040;
