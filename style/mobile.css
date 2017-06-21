@@ -1,0 +1,56 @@
+@media screen and (max-width:550px) {
+
+
+body {
+	font-family: initial;
+	font-size: 100%;
+ 	box-sizing: border-box;
+}
+
+.container {
+	width:500px;
+}
+
+nav {
+	display:none;
+}
+
+nav img {
+display:none;
+}
+
+.nav-container {
+	background-color: #3FD9A6;
+}
+
+header {
+	height: 20em;
+	background-color: #3FD9A6;
+}
+
+.header-container {
+	padding-top:50px;
+
+}
+
+.header-container img {
+	display:inherit;
+	height: 6em;
+	width: 6em;
+	border-radius: 50%;
+	border:5px solid white;
+	display:block;
+	margin:0 auto;
+	margin-bottom:2em;
+}
+
+header h1 {
+	font-size: 2em;
+}
+
+.intro-container h2 {
+	padding:0 1.8em;
+}
+
+
+}
