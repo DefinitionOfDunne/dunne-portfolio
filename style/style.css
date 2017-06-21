@@ -35,6 +35,11 @@ nav img {
 	border-color: white;
 	margin-left: 20px;
 	margin-top: 10px;
+	opacity: .6;
+}
+
+nav img:hover {
+	opacity: 1;
 }
 
 header {
@@ -92,29 +97,6 @@ header h3 {
 	margin-bottom: 1em;
 }
 
-.projects {
-
-}
-
-.projects li {
-	width: 20em;
-	display: inline-block;
-	margin: 1.5em;
-}
-
-.projects li h3 {
-	font-family: 'Bad Script';
-	margin-bottom: 1.5em;
-}
-
-.projects li p {
-	font-family: 'PT Sans Narrow';
-	margin-top: 2em;
-}
-
-.projects img {
-	width: 20em;
-}
 .icons {
 	margin-bottom: 5em;
 }
@@ -143,7 +125,6 @@ header h3 {
 	color: #404040;
 }
 
-/* Add a background color and some padding around the form */
 #contact-form {
 	width: 25%;
     margin: 2rem auto;
