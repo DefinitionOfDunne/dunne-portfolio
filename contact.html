@@ -27,7 +27,7 @@
 
 <div class="form-container">
     <h2>submit an inquiry to dylan-andrew-dunne.</h2>
-  <form id="contact-form">
+  <form id="contact-form" name="contact-form">
 
     <label for="fname">First Name</label>
     <input type="text" id="fname" class="contact-input" name="firstname" placeholder="Your first name..">
@@ -37,11 +37,11 @@
 
     <label for="subject">Inquiry</label>
     <textarea id="subject" name="subject" class="contact-input" placeholder="Write something.."></textarea>
-
-    <input type="submit" value="Submit">
-
+  <button id="submit-button" type="submit"> Submit </button>
   </form>
 </div>
+<br/>
+<div class="list"></div>
 <section>
     <div class="icons">
         <h2>network with dylan-andrew-dunne.</h2>
@@ -80,6 +80,7 @@
             </ul>
         </div>
 </footer>
-<!--social media-->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="scripts/app.js" ></script>
 </body>
 </html>
