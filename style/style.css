@@ -19,6 +19,11 @@ body {
 	z-index: 1;
 }
 
+.img-row {
+	width: 30%;
+	padding-left: 2%;
+	vertical-align: middle;
+}
 nav li {
 	float: right;
 	list-style-type: none;
