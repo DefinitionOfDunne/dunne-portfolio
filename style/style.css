@@ -6,6 +6,9 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
 .container {
     width: 1000px;
     margin: auto;
@@ -215,22 +218,21 @@ blockquote {
     background: white;
 }
 
-.project-img:hover {
-    border: 10px solid #092b94;
-}
+/*.project-img:hover {
+    border: 7px solid #092b94;
+}*/
 
-#main #projects article h3 {
+#projects article h3 {
     font-size: 2rem;
     margin-top: 25px;
     color: #092b94;
     font-variant: small-caps;
 }
 
-#main #projects article p {
+#projects article p {
     margin: 2rem;
     text-transform: none;
     font-weight: 300;
     font-size: 1rem;
-    text-align: left;
 }
 
