@@ -1,0 +1,100 @@
+@import 'https://fonts.googleapis.com/css?family=Josefin+Slab:600|Source+Sans+Pro:300';
+#resume-wrapper {
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    color: rgb(88, 83, 83);
+    max-width: 1300px;
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+#email:hover {
+    color: black;
+}
+.main-section-header {
+    text-transform: uppercase;
+    text-align: left;
+    color: black;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main-section-subheader {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.row {
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 2rem;
+}
+
+.row-label {
+    text-transform: uppercase;
+    width: 25%;
+}
+
+.row-content {
+    width: 65%;
+    margin: 0rem 0rem 0rem 3rem;
+    text-align: left;
+}
+
+.info-title {
+    font-size: 2rem;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.main-section-group {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+}
+
+#main-section-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#main-section-left {
+    height: 100%;
+    width: 75%;
+    float: left;
+    background-color: white;
+}
+
+#contact-details {
+    text-align: center;
+}
+
+#contact-details p {
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    color: #585358;
+}
+
+#contact-details h1 {
+    font-size: 3rem;
+    font-variant: small-caps;
+    padding: 1rem;
+}
+
+li,
+p,
+h4 {
+    margin-top: 15px;
+}
