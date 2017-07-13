@@ -1,4 +1,4 @@
-@media screen and (max-width:720px) {
+    @media screen and (max-width:720px) {
     body {
         background-color: green;
     }
@@ -11,9 +11,12 @@
         padding: 30px 0;
     }
     .container {
-    	width: 100%;
+        width: 100%;
     }
     nav img {
-    	visibility: hidden;
+        visibility: hidden;
+    }
+    #contact-form {
+        width: 60%;
     }
 }
